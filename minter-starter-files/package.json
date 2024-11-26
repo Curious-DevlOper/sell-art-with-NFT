@@ -3,20 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@alch/alchemy-web3": "^1.0.1",
+    "@alch/alchemy-web3": "^0.1.18",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
+    "assert": "^2.1.0",
+    "axios": "^1.6.8",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "vm-browserify": "^1.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired --openssl-legacy-provider start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "@babel/core": "^7.24.5",
+    "dotenv": "^8.6.0"
   }
 }

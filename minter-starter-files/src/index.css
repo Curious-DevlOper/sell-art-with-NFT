@@ -22,14 +22,15 @@ code {
 
 }
 
+.Minter > h2
 input {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: groove;
-  font-size: 16px;
+  font-size: 12px;
   width: 100%;
-  border-color: rgba(4, 4, 5, 0.1);
+  border-color: rgba(50, 50, 52, 0.1);
   line-height: 32px;
 }
 
